@@ -1,0 +1,22 @@
+{
+  "name": "websocketserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "dev": "tsc-watch --onSuccess \" npm start\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/websocket": "^1.0.10",
+    "@types/ws": "^8.5.13",
+    "express": "^4.21.1",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.6.3",
+    "ws": "^8.18.0"
+  }
+}
